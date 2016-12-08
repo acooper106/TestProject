@@ -12,7 +12,7 @@ public class ComputerTest {
 		Computer computer = new Computer();
 		Person person = new Person("John", "Lockhart"); 
 		String welcomeMessage = computer.welcome(person);
-		Assert.assertEquals("Welcome John Lockhart!", welcomeMessage);
+		Assert.assertEquals("Welcome John Lockhart! How was your day?", welcomeMessage);
 	}
 
 }
